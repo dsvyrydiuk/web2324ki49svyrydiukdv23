@@ -1,0 +1,106 @@
+body {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eff7f6;
+    margin: 50px;
+    padding: 0;
+    color: #333;
+    line-height: 1.6; 
+}
+
+.system-message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 9999;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comment {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #dff7e6; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 2.4em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 20px; 
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type='text'],
+form input[type='text'],
+form textarea {
+    font-size: 22px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px; 
+}
+
+form textarea {
+    height: 250px;
+}
+
+button {
+    font-size: 22px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #449d44;
+}
