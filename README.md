@@ -1,2 +1,5 @@
 # web2324ki49svyrydiukdv23
-Repo for WEB
+
+In this work, I worked with LinkedIn. 
+The work was done on a local server.
+Added files to repository.
